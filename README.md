@@ -1,14 +1,34 @@
-# React + Vite
+Sports Trade Screen
+A simulated trading interface for sports-based assets, built with React and Vite. This UI mimics real-time order flow, allows users to place buy/sell trades, and visually displays order history and price trends.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Setup Instructions
+1. Clone the Repository
+git clone https://github.com/kavyachirukuri/sports-trade-screen.git
+cd sports-trade-screen
 
-Currently, two official plugins are available:
+Architecture Overview
+Tech Stack
+Frontend: React 19 with Vite
+Styling: CSS Modules
+State Management: useState, useEffect (React Hooks)
+Deployment: GitHub Pages (via gh-pages branch)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Folder Structure
+<img width="738" height="231" alt="image" src="https://github.com/user-attachments/assets/3e58d249-1e51-4f6b-8452-53ffce1ba648" />
 
-## Expanding the ESLint configuration
+Mock Data Simulation
+To simulate real-time trading:
+Price ticks are updated using setInterval every few seconds.
+Order book data is randomly generated and stored in localStorage for persistence.
+Order fill animations mimic partial fills by toggling fill status with delays.
+This allows for a realistic trading feel without a backend.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Key Implementation Decisions
+Vite + React 19: Chosen for fast build and development speed.
+LocalStorage: Used for persisting placed trades without a backend.
+Animation via CSS + setTimeout: To simulate live order fills smoothly.
+Modular design: Each feature is isolated as a component (e.g., TradePanel, OrderRow) for scalability and clarity.
 
-# sports-trade-screen
+Author
+Kavya Chirukuri
+https://github.com/kavyachirukuri
