@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  max-width: 412px;
+  height: 880px;
+  margin: 0 auto;
+  min-height: 100vh;
+  background-color: #ffffff;
+  font-family: system-ui, sans-serif;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}
+
+.header-divider {
+  margin-left: -1rem;
+  margin-right: -1rem;
+  border: 1px solid lightgray;
+}
+
+.footer {
+  bottom: 0;
+  width: 412px;
+  height: 69px;
+  margin: 0 -16px;
+  position: fixed;
+}
+
+.footer img {
+  width: 100%;
+  display: block;
+}

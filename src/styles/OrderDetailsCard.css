@@ -1,0 +1,208 @@
+.order-card {
+  padding: 12px 0;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 12px;
+}
+
+.order-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.order-title {
+  width: 113px;
+  height: 16px;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 1%;
+  color: #000000;
+  vertical-align: middle;
+}
+
+.order-type-time {
+  display: flex;
+  gap: 6px;
+  font-size: 12px;
+  color: #858585;
+  margin-top: 2px;
+}
+
+.order-type {
+  width: 47px;
+  height: 16px;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 10px;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  vertical-align: middle;
+  color: #56ab68;
+}
+
+.order-time {
+  width: 105px;
+  height: 16px;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 10px;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  vertical-align: middle;
+}
+
+.order-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.order-progress {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.order-progress span {
+  width: 19px;
+  height: 16px;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0.01em;
+  color: #000000;
+  opacity: 1;
+  vertical-align: middle;
+  font-variant-numeric: lining-nums proportional-nums;
+}
+
+.progress-bar-container {
+  width: 45px;
+  height: 4px;
+  background-color: #e8def8;
+  border-radius: 6px;
+  overflow: hidden;
+  position: relative;
+}
+
+.progress-bar {
+  position: absolute;
+  width: 20px;
+  height: 100%;
+  background-color: #6750a4;
+  animation: slide 1.2s infinite ease-in-out;
+  border-radius: 6px;
+}
+
+@keyframes slide {
+  0% {
+    left: -20px;
+  }
+  50% {
+    left: 25px;
+  }
+  100% {
+    left: 60px;
+  }
+}
+
+.cancel-button {
+  background-color: #f2f2f2;
+  width: 64px;
+  height: 24px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.order-footer {
+  margin-top: 8px;
+  margin-bottom: 26px;
+}
+
+.order-detail {
+  display: flex;
+  justify-content: space-between;
+}
+
+.order-detail .filled-label {
+  color: #3b3b3b;
+  width: 71px;
+  height: 16px;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 10px;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  vertical-align: middle;
+  font-variant-numeric: lining-nums proportional-nums;
+  color: #3b3b3b;
+}
+
+.order-detail .price-label {
+  width: 23px;
+  height: 16px;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 10px;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  color: #3b3b3b;
+  vertical-align: middle;
+  font-variant-numeric: lining-nums proportional-nums;
+}
+
+.order-detail .filled-value {
+  width: 51px;
+  height: 16px;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 10px;
+  line-height: 16px;
+  color: #000000;
+  letter-spacing: 0.01em;
+  text-align: right;
+  vertical-align: middle;
+  font-variant-numeric: lining-nums proportional-nums;
+}
+
+.order-detail .filled-value span {
+  color: grey;
+}
+
+.order-detail .price-label {
+  width: 23px;
+  height: 16px;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 10px;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  vertical-align: middle;
+  font-variant-numeric: lining-nums proportional-nums;
+}
+
+.order-detail .price-value {
+  width: 18px;
+  height: 16px;
+  color: #000000;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 10px;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  text-align: right;
+  vertical-align: middle;
+  font-variant-numeric: lining-nums proportional-nums;
+}

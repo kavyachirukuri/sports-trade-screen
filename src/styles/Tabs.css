@@ -1,0 +1,67 @@
+.tabs-section-wrapper {
+  margin: 0 -16px;
+}
+
+.tabs-section {
+  width: 412px;
+  height: 84px;
+  margin-top: 15%;
+}
+
+.tabs {
+  display: flex;
+  border-bottom: 1px solid #c3bfbf;
+  border-top: 1px solid #c3bfbf;
+}
+
+.tab-button {
+  padding: 10px 16px;
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-weight: bold;
+  color: #858585;
+  font-size: 12px;
+}
+
+.tab-button.active {
+  color: #000;
+}
+
+.hide-pairs-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px;
+  border-bottom: 1px solid #c3bfbf;
+}
+
+.check-box-label {
+  display: flex;
+  margin: 0 7px;
+  color: #858585;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 500;
+  font-style: medium;
+  font-size: 12px;
+  line-height: 100%;
+  vertical-align: middle;
+  letter-spacing: 0.01em;
+}
+
+.check-box-label-pair {
+  display: flex;
+}
+
+.check-box {
+  height: 24px;
+  width: 24px;
+}
+
+.cancel-all-button {
+  height: 24px;
+  width: 86px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
