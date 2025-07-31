@@ -6,24 +6,24 @@ Setup Instructions
 git clone https://github.com/kavyachirukuri/sports-trade-screen.git
 cd sports-trade-screen
 
-Architecture Overview
+Architecture Overview:
 Tech Stack
 Frontend: React 19 with Vite
 Styling: CSS Modules
 State Management: useState, useEffect (React Hooks)
 Deployment: GitHub Pages (via gh-pages branch)
 
-Folder Structure
+Folder Structure:
 <img width="738" height="231" alt="image" src="https://github.com/user-attachments/assets/3e58d249-1e51-4f6b-8452-53ffce1ba648" />
 
-Mock Data Simulation
+Mock Data Simulation:
 To simulate real-time trading:
 Price ticks are updated using setInterval every few seconds.
 Order book data is randomly generated and stored in localStorage for persistence.
 Order fill animations mimic partial fills by toggling fill status with delays.
 This allows for a realistic trading feel without a backend.
 
-Key Implementation Decisions
+Key Implementation Decisions:
 Vite + React 19: Chosen for fast build and development speed.
 LocalStorage: Used for persisting placed trades without a backend.
 Animation via CSS + setTimeout: To simulate live order fills smoothly.
