@@ -1,0 +1,6 @@
+{
+  "trailingComma": "none",
+  "bracketSpacing": true,
+  "printWidth": 80,
+  "semi": false
+}
