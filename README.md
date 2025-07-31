@@ -14,7 +14,9 @@ State Management: useState, useEffect (React Hooks)
 Deployment: GitHub Pages (via gh-pages branch)
 
 Folder Structure:
-<img width="738" height="231" alt="image" src="https://github.com/user-attachments/assets/3e58d249-1e51-4f6b-8452-53ffce1ba648" />
+
+<img width="345" height="257" alt="image" src="https://github.com/user-attachments/assets/8c24d48d-2e9b-439d-a989-5f480208b0cf" />
+
 
 Mock Data Simulation:
 To simulate real-time trading:
